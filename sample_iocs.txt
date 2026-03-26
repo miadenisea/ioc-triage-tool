@@ -1,0 +1,8 @@
+microsoft-login-check.com
+185.220.101.4
+https://paypal-account-verify.net/reset
+e99a18c428cb38d5f260853678922e03
+secure-update-alert.com
+8.8.8.8
+http://bank-auth-reset.net/login
+not-a-real-ioc

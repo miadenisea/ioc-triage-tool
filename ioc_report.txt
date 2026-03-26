@@ -1,0 +1,57 @@
+IOC TRIAGE REPORT
+========================================
+
+[ Summary ]
+Total IOCs:    8
+Domains:       2
+URLs:          2
+IP Addresses:  2
+Hashes:        1
+Unknown:       1
+
+[ Risk Totals ]
+HIGH:    4
+MEDIUM:  3
+LOW:     1
+
+[ Detailed Results ]
+========================================
+IOC:    microsoft-login-check.com
+Type:   Domain
+Risk:   HIGH
+Reason: Multiple suspicious keywords found: login, microsoft
+
+IOC:    185.220.101.4
+Type:   IP Address
+Risk:   MEDIUM
+Reason: Public IP address — may warrant investigation
+
+IOC:    https://paypal-account-verify.net/reset
+Type:   URL
+Risk:   HIGH
+Reason: Multiple suspicious keywords found: verify, account, reset, paypal
+
+IOC:    e99a18c428cb38d5f260853678922e03
+Type:   MD5 Hash
+Risk:   MEDIUM
+Reason: File hash — submit for malware analysis
+
+IOC:    secure-update-alert.com
+Type:   Domain
+Risk:   HIGH
+Reason: Multiple suspicious keywords found: secure, update, alert
+
+IOC:    8.8.8.8
+Type:   IP Address
+Risk:   MEDIUM
+Reason: Public IP address — may warrant investigation
+
+IOC:    http://bank-auth-reset.net/login
+Type:   URL
+Risk:   HIGH
+Reason: Multiple suspicious keywords found: login, reset, bank, auth
+
+IOC:    not-a-real-ioc
+Type:   Unknown
+Risk:   LOW
+Reason: Unknown IOC format — unable to assess
