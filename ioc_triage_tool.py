@@ -1,6 +1,5 @@
 """
 IOC Triage Tool
-Project 2
 
 This program reads indicators of compromise from a file,
 identifies the IOC type, assigns a risk level,
